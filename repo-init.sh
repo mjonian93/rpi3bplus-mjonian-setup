@@ -42,5 +42,5 @@ ln -s $TOP_DIR/sources/poky/oe-init-build-env $TOP_DIR/setup-environment
 echo "***Repository initilization complete! You are now ready to create a new build environment.***"
 
 #####Remove this file#####
-rm -rf $TOP_DIR/repo_init.sh
+rm -rf $TOP_DIR/repo-init.sh
 ##########################
