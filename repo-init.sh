@@ -14,7 +14,7 @@ cd $TOP_DIR/sources
 git clone "$POKY_REPO" -b langdale
 git clone "$OPENEMBEDDED_REPO" -b langdale
 git clone "$RPI_REPO" -b langdale
-git clone "$PROPRIETARY_REPO" -b langdale
+git clone "$PROPRIETARY_REPO" -b main
 ##############################
 
 ######Checkout revisions######
@@ -32,7 +32,7 @@ git -c advice.detachedHead=false checkout langdale
 
 #meta-mjonian-rpi3bplus
 cd $TOP_DIR/sources/meta-mjonian-rpi3bplus
-git -c advice.detachedHead=false checkout langdale
+git -c advice.detachedHead=false checkout main
 ##############################
 
 ######Create symlinks######
