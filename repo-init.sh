@@ -31,7 +31,7 @@ cd $TOP_DIR/sources/meta-raspberrypi
 git -c advice.detachedHead=false checkout langdale
 
 #meta-mjonian-rpi3bplus
-cd $TOP_DIR/sources/oe-core
+cd $TOP_DIR/sources/meta-mjonian-rpi3bplus
 git -c advice.detachedHead=false checkout langdale
 ##############################
 
